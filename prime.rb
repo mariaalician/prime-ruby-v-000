@@ -10,6 +10,7 @@ def prime?(integer)
     else 
       a += 1
     end
+  end
   else 
     false
   end  
