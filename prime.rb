@@ -3,7 +3,7 @@
 integers = [1,2,3,4,5,6,7,8,9]
 require 'prime'
 def prime?(integers)
-  integers.collect do |integer|
+  integers.each do |integer|
   if integer.prime?
     true
   else false
