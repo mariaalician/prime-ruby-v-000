@@ -8,7 +8,7 @@ def prime?(integer)
     if integer%a == 0
     return false
     else 
-      
+      a += 1
   binding.pry
   else 
     false
