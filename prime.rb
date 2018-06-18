@@ -8,11 +8,11 @@ def prime?(integer)
     end
     a = 2
     until a = integer-1
-    if integer%a == 0
-    return false
-    else 
-      a += 1
-    end
+      if integer%a == 0
+      return false
+      else 
+        a += 1
+      end
   end
   else 
     false
