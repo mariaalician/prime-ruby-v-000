@@ -9,6 +9,7 @@ def prime?(integer)
     return false
     else 
       a += 1
+    end
   binding.pry
   else 
     false
