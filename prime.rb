@@ -5,7 +5,9 @@ def prime?(integer)
   binding.pry
   if integer > 2
     
-  else false
+  else 
+    false
+    
   integers.each do |integer|
   if integer.prime?
     true
