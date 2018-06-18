@@ -7,7 +7,7 @@ def prime?(integer)
       return true
     end
     a = 2
-    until a = integer/2
+    until a = integer-1
     if integer%a == 0
     return false
     else 
