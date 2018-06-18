@@ -5,7 +5,7 @@ def prime?(integer)
   if integer > 2
     a = 2
     until condition
-    if a%2 == 0
+    if integer%a == 0
     return false
   binding.pry
   else 
