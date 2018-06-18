@@ -2,16 +2,10 @@
 
 require 'pry'
 def prime?(integer)
-  binding.pry
   if integer > 2
     
+  binding.pry
   else 
     false
-    
-  integers.each do |integer|
-  if integer.prime?
-    true
-  else false
-end
-end
+  end  
 end
