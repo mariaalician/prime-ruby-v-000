@@ -14,6 +14,7 @@ def prime?(integer)
         a += 1
       end
     end
+    return true
   else 
     false
   end  
